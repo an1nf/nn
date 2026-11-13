@@ -107,7 +107,7 @@ def pagina_seccion(lista, i):
 def portada(lista):
     texto = (RAIZ / "README.md").read_text(encoding="utf-8")
     titulo = texto.splitlines()[0].lstrip("# ")
-    texto = texto.split("\n## El hilo conductor")[0]
+    texto = texto.split("\n## Resultados")[0]
     texto = re.sub(r"^### .*\n", "", texto, flags=re.M)
     texto = re.sub(r"^  \* ", "    * ", texto, flags=re.M)
     if AUTOR:
