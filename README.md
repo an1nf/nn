@@ -1,35 +1,41 @@
 # Arquitecturas de aprendizaje automático
 
-Implementaciones mínimas de arquitecturas neuronales, de McCulloch-Pitts (1943) a Mamba-3 (2026), cada una como respuesta a la limitación de la anterior. Capítulos 1–2 en NumPy con gradientes a mano; 3–6 en PyTorch.
+> Implementaciones de [arquitecturas neuronales](https://www.deeplearningbook.org/), de McCulloch-Pitts (1943) a Mamba-3 (2026), cada una como respuesta a la limitación de la anterior.
 
-* Capítulo 1: Los cimientos
-  * 1.1: [La neurona de McCulloch-Pitts](capitulo-1/1.1-mcculloch-pitts/)
-  * 1.2: [El perceptrón de Rosenblatt](capitulo-1/1.2-perceptron/)
-  * 1.3: [Adaline y la regla delta](capitulo-1/1.3-adaline/)
-  * 1.4: [El problema XOR y los límites de una capa](capitulo-1/1.4-xor/)
-* Capítulo 2: Profundidad y estructura
-  * 2.1: [Perceptrón multicapa y retropropagación](capitulo-2/2.1-perceptron-multicapa/)
-  * 2.2: [Redes convolucionales](capitulo-2/2.2-redes-convolucionales/)
-  * 2.3: [Redes de Hopfield: memoria asociativa](capitulo-2/2.3-hopfield/)
-  * 2.4: [Redes recurrentes de Elman y el gradiente que se desvanece](capitulo-2/2.4-rnn-elman/)
-  * 2.5: [LSTM: aprender a recordar](capitulo-2/2.5-lstm/)
-* Capítulo 3: La revolución profunda
-  * 3.1: [Activaciones e inicialización](capitulo-3/3.1-activaciones-e-inicializacion/)
-  * 3.2: [Redes residuales](capitulo-3/3.2-redes-residuales/)
-  * 3.3: [Secuencia a secuencia y atención](capitulo-3/3.3-seq2seq-y-atencion/)
-* Capítulo 4: El Transformer
-  * 4.1: [Autoatención y el Transformer](capitulo-4/4.1-autoatencion-y-transformer/)
-  * 4.2: [El costo de la atención y la caché KV](capitulo-4/4.2-costo-y-cache-kv/)
-  * 4.3: [Mezcla de expertos](capitulo-4/4.3-mezcla-de-expertos/)
-* Capítulo 5: El regreso de la recurrencia
-  * 5.1: [Atención lineal: el Transformer era una RNN](capitulo-5/5.1-atencion-lineal/)
-  * 5.2: [Modelos de espacio de estados: HiPPO y S4](capitulo-5/5.2-espacios-de-estados-s4/)
-  * 5.3: [Mamba: espacios de estados selectivos](capitulo-5/5.3-mamba/)
-  * 5.4: [Mamba-2 y la dualidad entre espacios de estados y atención](capitulo-5/5.4-mamba2-dualidad/)
-* Capítulo 6: Hoy (2024–2026)
-  * 6.1: [La regla delta vuelve: DeltaNet y Gated DeltaNet](capitulo-6/6.1-regla-delta/)
-  * 6.2: [Híbridos: cuánta atención hace falta](capitulo-6/6.2-hibridos/)
-  * 6.3: [Estados complejos y seguimiento de estado: la idea de Mamba-3](capitulo-6/6.3-estados-complejos/)
+Santiago Ramón y Cajal, dibujos de la corteza cerebral humana (1899):
+
+![Santiago Ramón y Cajal, dibujos de la corteza cerebral humana](https://upload.wikimedia.org/wikipedia/commons/5/5b/Cajal_cortex_drawings.png)
+
+## Contenido
+
+- [Los cimientos](capitulo-1/)
+  - [La neurona de McCulloch-Pitts](capitulo-1/1.1-mcculloch-pitts/)
+  - [El perceptrón de Rosenblatt](capitulo-1/1.2-perceptron/)
+  - [Adaline y la regla delta](capitulo-1/1.3-adaline/)
+  - [El problema XOR y los límites de una capa](capitulo-1/1.4-xor/)
+- [Profundidad y estructura](capitulo-2/)
+  - [Perceptrón multicapa y retropropagación](capitulo-2/2.1-perceptron-multicapa/)
+  - [Redes convolucionales](capitulo-2/2.2-redes-convolucionales/)
+  - [Redes de Hopfield: memoria asociativa](capitulo-2/2.3-hopfield/)
+  - [Redes recurrentes de Elman y el gradiente que se desvanece](capitulo-2/2.4-rnn-elman/)
+  - [LSTM: aprender a recordar](capitulo-2/2.5-lstm/)
+- [La revolución profunda](capitulo-3/)
+  - [Activaciones e inicialización](capitulo-3/3.1-activaciones-e-inicializacion/)
+  - [Redes residuales](capitulo-3/3.2-redes-residuales/)
+  - [Secuencia a secuencia y atención](capitulo-3/3.3-seq2seq-y-atencion/)
+- [El Transformer](capitulo-4/)
+  - [Autoatención y el Transformer](capitulo-4/4.1-autoatencion-y-transformer/)
+  - [El costo de la atención y la caché KV](capitulo-4/4.2-costo-y-cache-kv/)
+  - [Mezcla de expertos](capitulo-4/4.3-mezcla-de-expertos/)
+- [El regreso de la recurrencia](capitulo-5/)
+  - [Atención lineal: el Transformer era una RNN](capitulo-5/5.1-atencion-lineal/)
+  - [Modelos de espacio de estados: HiPPO y S4](capitulo-5/5.2-espacios-de-estados-s4/)
+  - [Mamba: espacios de estados selectivos](capitulo-5/5.3-mamba/)
+  - [Mamba-2 y la dualidad entre espacios de estados y atención](capitulo-5/5.4-mamba2-dualidad/)
+- [Hoy (2024 a 2026)](capitulo-6/)
+  - [La regla delta vuelve: DeltaNet y Gated DeltaNet](capitulo-6/6.1-regla-delta/)
+  - [Híbridos: cuánta atención hace falta](capitulo-6/6.2-hibridos/)
+  - [Estados complejos y seguimiento de estado: la idea de Mamba-3](capitulo-6/6.3-estados-complejos/)
 
 ## Referencias
 
